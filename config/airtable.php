@@ -42,7 +42,4 @@ return [
     'tables' => [
         'timesheet' => env('AIRTABLE_TABLE')
     ],
-
-    'typecast' => env('AIRTABLE_TYPECAST', false),
-    'users' => explode(",", env('AIRTABLE_USERS'))
 ];
